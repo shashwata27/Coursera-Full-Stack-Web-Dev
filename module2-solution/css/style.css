@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    background-color: wheat;
+}
+h1{
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    color: tomato;
+    border: 5px ridge blueviolet;
+}
