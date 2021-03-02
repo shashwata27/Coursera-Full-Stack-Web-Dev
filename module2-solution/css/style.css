@@ -4,8 +4,69 @@
 }
 h1{
     margin-bottom: 20px;
-    padding: 10px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
-    color: tomato;
+    color:   tomato;
     border: 5px ridge blueviolet;
+}
+
+
+@media (min-width: 992px){.col-lg-4
+    {
+        float: left;
+        border: 5px  solid green;
+    }
+    .col-lg-4{
+        width: 33%;
+    }
+
+}
+@media(max-width: 991px) and (min-width: 768px){
+    .col-md-6
+    {
+        float: left;
+        border: 5px solid red;
+    }
+    .col-md-6{
+        width: 50%;
+        
+    }
+}
+
+@media(max-width:767px){
+    .col-12
+    {
+        float: left;
+        border: 5px solid blue;
+    }
+    .col-12{
+        width: 100%;
+
+    }
+}
+
+div .container{
+    position:relative;
+}
+.item{
+    border: 5px solid black;
+    padding: 5px;
+    background-color: yellow;
+    margin-bottom: 10px ;
+    
+}
+
+
+h3{
+    border: 2px solid red;
+    position: relative;
+    left: px;
+    margin-left: 80%;
+    margin-top:0px;
+    margin-bottom: 0%;
+    width: 20%;
+    text-align: right;
+
 }
