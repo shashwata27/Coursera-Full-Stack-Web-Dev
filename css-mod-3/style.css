@@ -3,13 +3,19 @@
 }
 
 .page-heading{
-    font-size: larger;
+    font-size: x-large;
 }
 
 .content-heading{
     font-size: large;
+    
 }
 
 .content-body{
     height: 1000px;
+}
+
+a:link{
+    text-decoration: none;
+    text-transform: capitalize;
 }
