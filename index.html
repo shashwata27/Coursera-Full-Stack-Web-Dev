@@ -26,10 +26,15 @@
 
               <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <!-- <a class="nav-link active d-sm-none" aria-current="page" href="#">Home</a> -->
-                  <a class="nav-link d-sm-none text-light text-center" href="#chicken">Chicken</a>
-                  <a class="nav-link d-sm-none text-light text-center" href="#">Beef</a>
-                  <a class="nav-link d-sm-none text-light text-center" href="#">Sushi</a>
+
+                  
+                  <!-- nav-link could have been used in place of btn  -->
+                  <!-- aria-expanded="false" aria-controls="Chicken" -->
+                  <a class="btn btn-primary d-sm-none text-light text-center"  role="button" href="#Chicken">Chicken</a>
+                  <a class="btn btn-primary d-sm-none text-light text-center" href="#Beef">Beef</a>
+                  <a class="btn btn-primary d-sm-none text-light text-center" href="#Sushi">Sushi</a>
+
+
                 </div>
               </div>
 
@@ -41,9 +46,11 @@
     <div class="page-heading text-center text-wrap text-capitalize fw-bolder mt-1 mb-2"> Our menu</div>
 
     <div class="container px-3 py-2 ">
+      <div class="row">
 
-        <div class="content-heading col-12 text-center bg-secondary fw-bold text-dark text-capitalize pt-2" id="chicken">Chicken</div>
-        <section class=" content-body col-12 text-center bg-secondary text-light fw-lighter">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="content-heading  text-center bg-secondary fw-bold text-dark text-capitalize px-2 pt-2 " id="Chicken">Chicken</div>
+          <section class=" content-body  text-center bg-secondary text-light fw-lighter px-2  ">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
             making it over 2000 years old. Richard McClintock, a Latin professor
@@ -61,6 +68,63 @@
             Cicero are also reproduced in their exact original form, accompanied by English versions 
             from the 1914 translation by H. Rackham.
         </section>
+        <section class="d-lg-none text-center bg-secondary mb-2">
+          <a href="#">Back to top</a>
+        </section>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="content-heading  text-center bg-secondary fw-bold text-dark text-capitalize px-2 pt-2 " id="Beef">Beef</div>
+          <section class=" content-body  text-center bg-secondary text-light fw-lighter px-2 ">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more obscure
+            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+            the cites of the word in classical literature, discovered the undoubtable source.
+            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum 
+            et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+            This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+            The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+            section 1.10.32.<br>
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those 
+            interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by 
+            Cicero are also reproduced in their exact original form, accompanied by English versions 
+            from the 1914 translation by H. Rackham.
+        </section>
+        <section class="text-center bg-secondary mb-2">
+          <a href="#">Back to top</a>
+        </section>
+        </div>
+        
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="content-heading  text-center bg-secondary fw-bold text-dark text-capitalize px-2 pt-2" id="Sushi">Sushi</div>
+          <section class=" content-body text-center bg-secondary text-light fw-lighter px-2 ">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more obscure
+            Latin words, consectetur, from a Lorem Ipsum passage, and going through
+            the cites of the word in classical literature, discovered the undoubtable source.
+            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum 
+            et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+            This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+            The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+            section 1.10.32.<br>
+
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those 
+            interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by 
+            Cicero are also reproduced in their exact original form, accompanied by English versions 
+            from the 1914 translation by H. Rackham.
+        </section>
+        <section class="d-lg-none text-center bg-secondary mb-2">
+          <a href="#">Back to top</a>
+        </section>
+        </div>
+
+
+      </div>
     </div>
 
 
